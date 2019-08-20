@@ -2,6 +2,12 @@
 
 Репозиторий для проведения занятия по теме "Работа с элементами"
 
+0) OOP
+1) Webelement + Select
+2) Property vs. Attribute
+3) Excceptions
+4) ActionChains
+
 Полезные ссылки:
 
 https://selenium-python.readthedocs.io/
