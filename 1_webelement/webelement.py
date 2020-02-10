@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-firefox = webdriver.Firefox()
+firefox = webdriver.Chrome()
 firefox.implicitly_wait(10)
 firefox.get("https://yandex.ru")
 
