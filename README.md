@@ -2,11 +2,10 @@
 
 Репозиторий для проведения занятия по теме "Работа с элементами"
 
-0) OOP
-1) Webelement + Select
-2) Property vs. Attribute
-3) Excceptions
-4) ActionChains
+1) WebElement
+    1) enabled, selected, displayed
+    2) attribute, property, css_property
+2) ActionChains
 
 Полезные ссылки:
 
