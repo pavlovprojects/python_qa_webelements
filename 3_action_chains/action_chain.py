@@ -3,7 +3,7 @@ from selenium import webdriver
 import random
 import time
 
-chrome = webdriver.Chrome(executable_path="../../Env/drivers/chromedriver")
+chrome = webdriver.Chrome(executable_path="drivers/chromedriver")
 chrome.implicitly_wait(20)
 chrome.maximize_window()
 actions = ActionChains(chrome)

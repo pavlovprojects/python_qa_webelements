@@ -1,10 +1,10 @@
 from selenium import webdriver
 
-firefox = webdriver.Chrome()
-firefox.implicitly_wait(10)
-firefox.get("https://yandex.ru")
+chrome = webdriver.Chrome(executable_path="drivers/chromedriver")
+chrome.implicitly_wait(10)
+chrome.get("https://yandex.ru")
 
-home_tabs = firefox.find_element_by_css_selector(".home-tabs")
-search_input = firefox.find_element_by_css_selector("input#text")
+home_tabs = chrome.find_element_by_css_selector(".home-tabs3")
+search_input = chrome.find_element_by_css_selector("input#text")
 
-firefox.close()
+chrome.close()
