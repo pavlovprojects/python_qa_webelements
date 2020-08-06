@@ -1,7 +1,6 @@
 from selenium.webdriver import ActionChains
 from selenium import webdriver
 import random
-import time
 
 from conftest import DRIVERS
 
