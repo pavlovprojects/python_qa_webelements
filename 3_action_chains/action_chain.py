@@ -1,7 +1,7 @@
-from selenium.webdriver import ActionChains
-from selenium import webdriver
 import random
 
+from selenium.webdriver import ActionChains
+from selenium import webdriver
 from conftest import DRIVERS
 
 chrome = webdriver.Chrome(executable_path=DRIVERS + "/chromedriver")

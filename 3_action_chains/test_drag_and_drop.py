@@ -1,3 +1,5 @@
+import logging
+
 from selenium.webdriver import ActionChains
 
 
@@ -13,6 +15,7 @@ def test_d_and_d(browser):
         # Создаю строки для селекторов
         card_id = "card{}".format(i)
         zone_id = "zone{}".format(i)
+        logging.info("Element ids: {} {}".format(card_id, zone_id))
 
         # Нахожу нужные элементы
         card_element = browser.find_element_by_id(card_id)
